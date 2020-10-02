@@ -1,0 +1,15 @@
+.content {
+    margin: auto;
+    width: 800px;
+}
+
+#inspected-model {
+    background: #def;
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 1.125rem;
+    line-height: 2.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 700px;
+}
