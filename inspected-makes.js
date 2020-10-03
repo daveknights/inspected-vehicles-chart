@@ -73,7 +73,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     const idx = activePoints[0]['_index'];
                     const label = chartData.labels[idx];
 
-                    document.getElementById('inspected-model').textContent = `Most inspected ${label} model: ${chartData.datasets[0].models[label]}`;;
+                    document.getElementById('inspected-model').style.background = chartData.datasets[0].backgroundColor[idx];
+                    document.getElementById('inspected-model').textContent = `Most inspected ${label} model: ${chartData.datasets[0].models[label]}`;
                 }
             },
             responsive: false
