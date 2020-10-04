@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 display: true,
                 fontSize: 15,
                 lineHeight: 3,
-                text: 'Top 10 Most Inspected Vehicle Makes'
+                text: 'Top 10 Most Inspected Vehicle Makes on AA Cars'
             },
             legend: {
                 labels: {
